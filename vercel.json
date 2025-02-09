@@ -1,16 +1,7 @@
 {
-  "functions": {
-    "app/api/chat/route.ts": {
-      "maxDuration": 60,
-    },
-    "app/api/document/route.ts": {
-      "maxDuration": 60,
-    },
-    "app/api/files/upload/route.ts": {
-      "maxDuration": 60,
-    },
-    "app/api/suggestions/route.ts": {
-      "maxDuration": 60,
+    "functions": {
+        "app/api/**/*": {
+            "maxDuration": 60
+        }
     }
-  }
 }
