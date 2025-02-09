@@ -1,0 +1,16 @@
+{
+    "functions": {
+        "api/chat": {
+            "maxDuration": 60
+        },
+        "api/document": {
+            "maxDuration": 60
+        },
+        "api/files/upload": {
+            "maxDuration": 60
+        },
+        "api/suggestions": {
+            "maxDuration": 60
+        }
+    }
+}
