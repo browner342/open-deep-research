@@ -426,7 +426,7 @@ const DeepResearchProgress = ({
   const { state: deepResearchState } = useDeepResearch();
   const [lastActivity, setLastActivity] = useState<string>('');
   const [startTime] = useState<number>(Date.now());
-  const maxDuration = 5 * 60 * 1000; // 5 minutes in milliseconds
+  const maxDuration = 20 * 60 * 1000; // 20 minutes in milliseconds
   const [currentTime, setCurrentTime] = useState(Date.now());
 
   useEffect(() => {
